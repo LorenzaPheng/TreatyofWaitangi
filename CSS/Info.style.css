@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora);
+
+#wrapper1{display:grid;
+grid-template-areas: "header1 header1 nav1"
+"main1 main1 sb1"
+"main1 main1 sb1"
+"footer1 footer1 footer1";
+border:1px solid black;
+}
+
+#header1{grid-area: header1;
+border:1px solid black;
+background-color:indianred;}
+
+#nav1{grid-area: nav1;
+border:1px solid black;}
+
+#main1{grid-area: main1;
+border:1px solid black;
+background-color:antiquewhite}
+
+#sb1{grid-area: sb1;
+border:1px solid black;
+background-color:floralwhite;
+padding-left:20px;
+}
+
+#sb1 li{font-size: 25px;
+padding-bottom:50px;
+}
+
+#footer1{grid-area: footer1;
+border:1px solid black;}
+
+h1{font-size:65px;
+text-align:center;
+font-family:Lora;}
+
+h2{font-size:45px;
+text-align:center;
+font-family:Lora}
+
+#nav1 h3{padding:20px;
+font-size:30px;
+font-family:Lora;}
+
+#nav1{padding:20px;
+background-color:lightcoral;}
+
+li a:hover{background-color:wheat;
+color:white;}
+
+
+
+#nav1 a{color:black;
+font-size:20px;
+}
+
+#nav1 li{text-decoration:none;}
+
+#nav1 li a{display:block;
+    color:#000;
+    text-decoration:none;
+    padding: 8px 16px;
+}
+    
+#nav1 ul{width:200px;
+list-style-type:none;
+background-color:antiquewhite;
+}
+
+
+
+
+#main1 p{font-size:20px;
+padding:10px;
+font-family:serif;}
+
+#main1 h3{font-size:35px;
+font-family:Lora;}
+
+#footer1{padding:50px;
+background-color:rosybrown}
+
+#FOOT3{Float:right;}
+
+#img1{width:100%}
+
+.img2{width:100%}
+
+#meet1{padding-top:200px;
+width:90%;
+}
+
+#flag{width:90%;
+padding-top:750px;}
+
+#kapahaka{width:90%;
+padding-top:1500px;}
+
+
+
+

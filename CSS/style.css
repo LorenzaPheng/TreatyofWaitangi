@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora);
+
+#wrapper{display:grid;
+grid-template-columns: 1fr 5fr;
+grid-template-areas: "header header header"
+"nav main main"
+"sb main main"
+"footer footer footer";
+border:1px solid black;
+}
+#header{
+    grid-area: header;
+    border:1px solid black;
+    background-color:indianred
+}
+
+#header h1{font-size:100px;
+   text-align:center;
+font-family:'Lora';
+}
+
+h2{font-family:Lora;
+padding:10px}
+
+
+
+
+
+#header h5{font-size:40px;
+   text-align:center;
+font-family:'Lora'}
+
+
+#nav{
+    grid-area: nav;
+    border:1px solid black;
+    background-color:antiquewhite;
+}
+#nav a{font-size:20px;
+color:black;
+}
+
+#nav li{padding-bottom:50px;}
+
+#nav h3{font-size:35px;
+text-align:center;
+font-family:Lora;}
+
+#Main{
+    grid-area:main;
+    border:1px solid black;
+}
+
+#TOWS{width:100%;
+padding-top:20px}
+
+#TOWS1{Width:50%;
+}
+
+#TOWS2{width:50%;
+    float:right;
+}
+
+#Main h3{Font-size:50px;
+    font-family:Lora;
+padding-left:20px;}
+
+#Main p{padding-left:20px;
+Padding-right:20px;
+padding-bottom:50px;}
+
+
+
+#sb{
+    grid-area:sb;
+    border:1px solid black;
+    background-color:oldlace
+}
+#footer{
+    grid-area:footer;
+    border:1px solid black;
+    padding:50px;
+    background-color:rosybrown
+}
+
+#wrapper{display:grid;
+}
+div{border:1px solid black;
+}
+
+li a:hover{background-color:wheat;
+color:white;}
+
+
+
+#nav a{color:black;
+font-size:20px;
+}
+
+#nav li{text-decoration:none;}
+
+#nav li a{display:block;
+    color:#000;
+    text-decoration:none;
+ padding:20px;
+}
+    
+#nav ul{width:200px;
+list-style-type:none;
+background-color:darksalmon;
+}
+
+
+
